@@ -68,12 +68,34 @@ export function mutuallyPrime(a: number): number {
     return b;
 }
 
-export function pow(secret: number, deg: number, module: number): number {
-    if (deg % 2 === 1) {
-        return secret * (pow(secret, deg - 1, module) * pow(secret, deg - 1, module)) % module;
-    } else {
-        return (pow(secret, deg - 1, module) * pow(secret, deg - 1, module)) % module;
+export function faststep(val: number, step: number, mod: number) {
+    let s = 1;
+    let v = step;
+    let c = val;
+    while (v != 0) {
+        let flag = 0;
+        if (v%2 == 1) {
+            if (!mod)
+                s = s*c;
+            else
+                s = (s*c) % mod;
+            v = (v-1)/2;
+            if (!mod)
+                c = c*c;
+            else
+                c = (c*c) % mod;
+            flag = 1;
+        }
+        else {
+            v = v/2;
+        }
+        if (!flag)
+            if (!mod)
+                c = c*c;
+            else
+                c = (c*c) % mod;
     }
+    return s;
 }
 
 export function findReversed(a: number, module: number): number {
