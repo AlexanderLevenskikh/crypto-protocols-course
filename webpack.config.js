@@ -3,7 +3,7 @@ const webpack = require('webpack');
 
 module.exports = {
     entry: {
-        shamirProto: './src/shamirProto.ts',
+        shamirProto: './src/shamir/index.ts',
     },
     output: {
         filename: '[name].js',
