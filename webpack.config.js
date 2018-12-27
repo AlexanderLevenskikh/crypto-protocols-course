@@ -4,6 +4,7 @@ const webpack = require('webpack');
 module.exports = {
     entry: {
         shamirProto: './src/shamir/index.ts',
+        merklePuzzle: './src/merkle_puzzle/index.ts',
     },
     output: {
         filename: '[name].js',
