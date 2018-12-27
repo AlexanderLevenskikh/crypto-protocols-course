@@ -1,7 +1,5 @@
-import { createCipheriv, CipherCCMTypes, getCiphers, createCipher, createDecipher } from 'crypto';
+import { createCipher, createDecipher } from 'crypto';
 import { MerkleMessage } from './message';
-
-
 
 const MESSAGES_COUNT = 10;
 const WEAK_KEY_MAX = 100;
