@@ -9,6 +9,7 @@ module.exports = {
         zeroKnowledgeProof: './src/zeroKnowledgeProof/index.ts',
         secretSharing: './src/secretSharing/index.ts',
         checkSignature: './src/checkSignature/index.ts',
+        authVerification: './src/authVerification/index.ts',
     },
     output: {
         filename: '[name].js',
