@@ -8,10 +8,12 @@
     "url": "git+https://github.com/AlexanderLevenskikh/crypto-protocols-course.git"
   },
   "dependencies": {
+    "@types/uuid": "^3.4.4",
     "big-integer": "^1.6.40",
     "javascript-blowfish": "github:agorlov/javascript-blowfish",
     "node-forge": "^0.7.6",
-    "typescript": "^3.1.6"
+    "typescript": "^3.1.6",
+    "uuid": "^3.3.2"
   },
   "scripts": {
     "build": "webpack",
