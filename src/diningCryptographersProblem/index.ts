@@ -1,8 +1,6 @@
 // A - Alice, B - Bob, C - Carol
 
-function coinToss(): boolean {
-    return Math.floor(Math.random() * 2) === 1;
-}
+import { coinToss } from '../shared/utils';
 
 function xor(a: boolean, b: boolean) {
     return ( a && !b ) || ( !a && b )
