@@ -1,4 +1,5 @@
-import { faststep, findReversed, mutuallyPrime, primeNumberRandomGenerator, randomKeyGenerator } from './utils';
+import { faststep, mutuallyPrime } from './utils';
+import { findReversed, primeNumberRandomGenerator, randomKeyGenerator } from '../shared/utils';
 
 const P = primeNumberRandomGenerator();
 const secretKey = randomKeyGenerator(P);

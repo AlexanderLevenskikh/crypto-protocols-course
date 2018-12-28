@@ -7,6 +7,7 @@ module.exports = {
         merklePuzzle: './src/merklePuzzle/index.ts',
         diningCryptographersProblem: './src/diningCryptographersProblem/index.ts',
         zeroKnowledgeProof: './src/zeroKnowledgeProof/index.ts',
+        secretSharing: './src/secretSharing/index.ts',
     },
     output: {
         filename: '[name].js',

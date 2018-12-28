@@ -8,7 +8,7 @@
     "url": "git+https://github.com/AlexanderLevenskikh/crypto-protocols-course.git"
   },
   "dependencies": {
-    "big-integer": "^1.6.36",
+    "big-integer": "^1.6.40",
     "javascript-blowfish": "github:agorlov/javascript-blowfish",
     "node-forge": "^0.7.6",
     "typescript": "^3.1.6"
