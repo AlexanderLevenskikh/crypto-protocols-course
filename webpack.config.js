@@ -6,6 +6,7 @@ module.exports = {
         shamirProto: './src/shamir/index.ts',
         merklePuzzle: './src/merklePuzzle/index.ts',
         diningCryptographersProblem: './src/diningCryptographersProblem/index.ts',
+        zeroKnowledgeProof: './src/zeroKnowledgeProof/index.ts',
     },
     output: {
         filename: '[name].js',
