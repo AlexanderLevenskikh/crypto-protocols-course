@@ -36,7 +36,7 @@ let bobTrainingDataSet = generateInitialTrainingSet();
 aliceNetwork.train(aliceTrainingDataSet);
 bobNetwork.train(bobTrainingDataSet);
 
-console.log('Alice и Bob начинают тренировать нейронные сети');
+console.log('Alice и Bob начинают тренировать нейронные сети\n');
 
 let sync = false;
 let i = 0;
