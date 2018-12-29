@@ -12,6 +12,7 @@ module.exports = {
         authVerification: './src/authVerification/index.ts',
         neuralKey: './src/neuralKey/index.ts',
         neuralKeyEve: './src/neuralKeyEve/index.ts',
+        conditionallyExec: './src/conditionallyExec/index.ts',
     },
     output: {
         filename: '[name].js',
