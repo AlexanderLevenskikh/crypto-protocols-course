@@ -10,6 +10,7 @@
   "dependencies": {
     "@types/uuid": "^3.4.4",
     "big-integer": "^1.6.40",
+    "brain.js": "^1.6.1",
     "javascript-blowfish": "github:agorlov/javascript-blowfish",
     "node-forge": "^0.7.6",
     "random-words": "^1.1.0",

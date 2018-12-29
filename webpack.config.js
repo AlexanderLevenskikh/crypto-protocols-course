@@ -10,6 +10,7 @@ module.exports = {
         secretSharing: './src/secretSharing/index.ts',
         checkSignature: './src/checkSignature/index.ts',
         authVerification: './src/authVerification/index.ts',
+        neural: './src/neural/index.ts',
     },
     output: {
         filename: '[name].js',
