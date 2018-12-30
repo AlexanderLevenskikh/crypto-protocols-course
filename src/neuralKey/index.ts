@@ -74,7 +74,7 @@ while (!sync) {
     }
 
     let temp = 0;
-    for (let j = 0; j < 100; j++) {
+    for (let j = 0; j < 50; j++) {
 
         const aliceByte = generateRandomByte();
         const bobByte = generateRandomByte();
@@ -89,7 +89,7 @@ while (!sync) {
         }
     }
 
-    if (temp === 100) {
+    if (temp === 50) {
         console.log(`Синхронизировались на ${i} итерации`);
         console.log(`Входная строка Alice: ${toBitString(aliceByte[0])}`);
         console.log(`Выходная строка нейронной сети Alice: ${toBitString(aliceResultByte[0] * 255)}`);
